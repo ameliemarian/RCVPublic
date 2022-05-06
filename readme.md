@@ -39,4 +39,4 @@ This script will generate the plot in Figure 2.
 
 ## `src/make_tree.py`
 
-This contains the core of our algorithms. Algorithm 1 from the paper is implemented in `_verify()`. Algorithm 2 is implemented in `_make_tree()`.
+This contains the core of our algorithms. Algorithm 1 from the paper is implemented in `_verify()`. Algorithm 2 is implemented in `_make_tree()`. Creating an elimination DAG with compression is implemented in `tree2graph()`.
