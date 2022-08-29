@@ -22,11 +22,11 @@ ax1.set_yscale("log")
 
 ax1.set_xlabel("Number of Candidates")
 ax1.set_ylabel("Runtime (S)")
-ax1.scatter(candidates,dp_time, label = "calculatePossibleOutcomes",marker='x',color="blue")
+ax1.scatter(candidates,dp_time, label = "possibleOutcomes",marker='x',color="blue")
 ax1.scatter(candidates,bf_time,label="Brute Force",marker='.',color="red")
 ax1.legend()
 ax1.tick_params(axis=u'both', which=u'both',length=3)
-ax1.set_title("calculatePossibleOutcomes versus Brute Force Runtimes")
+ax1.set_title("possibleOutcomes versus Brute Force Runtimes")
 
 plt.savefig('data_plot.eps', format='eps')
 plt.savefig('data_plot.png', format='png')
