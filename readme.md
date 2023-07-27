@@ -1,5 +1,9 @@
 # Identifying Possible Winners in Ranked Choice Voting Elections with Outstanding Ballots
 
+# Paper
+
+[Jelvani, Alborz, and Amélie Marian. "Identifying Possible Winners in Ranked Choice Voting Elections with Outstanding Ballots." Proceedings of the AAAI Conference on Human Computation and Crowdsourcing. Vol. 10. No. 1. 2022.](https://ojs.aaai.org/index.php/HCOMP/article/view/21992)
+
 # Data
 
 Testing is performed using the dataset below:
